@@ -11,7 +11,7 @@ favicon_url=""
 mixpanel_token=""
 
 [default.features]
-test_live_toggle=true
+test_live_toggle=false
 is_live_mode=false
 email=false
 quick_start=true
