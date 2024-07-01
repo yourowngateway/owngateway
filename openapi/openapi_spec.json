@@ -487,7 +487,7 @@
           "Payments"
         ],
         "summary": "Payments - Session token",
-        "description": "Payments - Session token\n\nCreates a session object or a session token for wallets like Apple Pay, Google Pay, etc. These tokens are used by Hyperswitch's SDK to initiate these wallets' SDK.",
+        "description": "Payments - Session token\n\nCreates a session object or a session token for wallets like Apple Pay, Google Pay, etc. These tokens are used by OwnGateway's SDK to initiate these wallets' SDK.",
         "operationId": "Create Session tokens for a Payment",
         "requestBody": {
           "content": {
@@ -1643,7 +1643,7 @@
           "Gsm"
         ],
         "summary": "Gsm - Create",
-        "description": "Gsm - Create\n\nCreates a GSM (Global Status Mapping) Rule. A GSM rule is used to map a connector's error message/error code combination during a particular payments flow/sub-flow to Hyperswitch's unified status/error code/error message combination. It is also used to decide the next action in the flow - retry/requeue/do_default",
+        "description": "Gsm - Create\n\nCreates a GSM (Global Status Mapping) Rule. A GSM rule is used to map a connector's error message/error code combination during a particular payments flow/sub-flow to OwnGateway's unified status/error code/error message combination. It is also used to decide the next action in the flow - retry/requeue/do_default",
         "operationId": "Create Gsm Rule",
         "requestBody": {
           "content": {

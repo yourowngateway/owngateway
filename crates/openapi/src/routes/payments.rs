@@ -371,7 +371,7 @@ pub fn payments_capture() {}
 
 /// Payments - Session token
 ///
-/// Creates a session object or a session token for wallets like Apple Pay, Google Pay, etc. These tokens are used by Hyperswitch's SDK to initiate these wallets' SDK.
+/// Creates a session object or a session token for wallets like Apple Pay, Google Pay, etc. These tokens are used by OwnGateway's SDK to initiate these wallets' SDK.
 #[utoipa::path(
     post,
     path = "/payments/session_tokens",

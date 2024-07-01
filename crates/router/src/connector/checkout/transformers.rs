@@ -873,7 +873,7 @@ impl TryFrom<&CheckoutRouterData<&types::PaymentsCaptureRouterData>> for Payment
             amount: Some(item.amount.to_owned()),
             capture_type: Some(capture_type),
             processing_channel_id,
-            reference, // hyperswitch's reference for this capture
+            reference, // owngateway's reference for this capture
         })
     }
 }

@@ -1,6 +1,6 @@
 /// Gsm - Create
 ///
-/// Creates a GSM (Global Status Mapping) Rule. A GSM rule is used to map a connector's error message/error code combination during a particular payments flow/sub-flow to Hyperswitch's unified status/error code/error message combination. It is also used to decide the next action in the flow - retry/requeue/do_default
+/// Creates a GSM (Global Status Mapping) Rule. A GSM rule is used to map a connector's error message/error code combination during a particular payments flow/sub-flow to OwnGateway's unified status/error code/error message combination. It is also used to decide the next action in the flow - retry/requeue/do_default
 #[utoipa::path(
     post,
     path = "/gsm",
